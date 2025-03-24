@@ -70,7 +70,7 @@ function loadTasks() {
 async function syncToGitHub() {
     const tasks = JSON.parse(localStorage.getItem("tasks")) || [];
     const content = JSON.stringify(tasks, null, 2);
-    const repo = "yourusername/dark-todo";
+    const repo = "Hello-himesh/mondaynights";
     const filename = "tasks.json";
     const token = "your_personal_access_token";  // Replace with GitHub Token
 
