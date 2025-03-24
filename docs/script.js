@@ -72,7 +72,7 @@ async function syncToGitHub() {
     const content = JSON.stringify(tasks, null, 2);
     const repo = "Hello-himesh/mondaynights";
     const filename = "tasks.json";
-    const token = "your_personal_access_token";  // Replace with GitHub Token
+    const token = "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";  // Replace with GitHub Token
 
     const url = `https://api.github.com/repos/${repo}/contents/${filename}`;
     
